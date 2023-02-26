@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="flex">
+        <div class="w-3/5">
+          <div class="flex space-x-4 h-20 pl-2 pt-2">
+            <img class="h-10 w-10" src="assets/logo.png" alt="" srcset="" />
+            <div class="text-xl">Oyasus</div>
+          </div>
+          <div class="text-7xl">Maximize your Revenue with Oyasus</div>
+          <div class="text-xl">
+            The unlimited post-purchase upsell app for shopify
+          </div>
+          <div
+            class="border-2 place-content-center rounded-md h-12 w-40 bg-[#00825e]"
+          >
+            <div class="text-white text-xl text-center">Start Free Trial</div>
+          </div>
+        </div>
+        <div class="w-2/5">
+          <div class="flex bg-[#00825e] space-x-4 h-20 pl-2 pt-2">
+            <div class="text-white text-xl">Feature</div>
+            <div class="text-white text-xl">Pricing</div>
+            <div class="text-white text-xl">Blog</div>
+            <div class="text-white text-xl">Contact Us</div>
+            <div class="border-2 inline-block align-baseline rounded-md h-12">
+              <div class="text-white text-xl">Start Free Trial</div>
+            </div>
+          </div>
+          <img
+            class="h-screen w-full"
+            src="assets/woman.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
